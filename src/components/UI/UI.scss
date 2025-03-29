@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  &__line {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  &__btn {
+    padding: 6px 15px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 300ms;
+
+    &:hover {
+      background: rgb(212, 212, 212);
+    }
+
+    &:disabled {
+      display: none;
+    }
+  }
+}
